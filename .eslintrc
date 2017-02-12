@@ -222,7 +222,7 @@
     "object-shorthand": [2, "methods"],         // - require method and property shorthand syntax for object literals
     "prefer-const": 1,                          // - suggest using const declaration for variables that are never modified after declared
     "prefer-spread": 2,                         // - suggest using the spread operator instead of .apply().
-    "prefer-reflect": 2,                        // - suggest using Reflect methods where applicable
+    "prefer-reflect": 1,                        // - suggest using Reflect methods where applicable
     "require-yield": 2,                         // - disallow generator functions that do not have yield
     "prefer-template": 2,
 
