@@ -83,7 +83,7 @@
     "no-octal-escape": 2,                       // - disallow use of octal escape sequences in string literals, such as var foo = "Copyright \251";
     "no-octal": 2,                              // - disallow use of octal literals (recommended)
     "no-param-reassign": 2,                     // - disallow reassignment of function parameters
-    "no-process-env": 2,                        // - disallow use of process.env
+    "no-process-env": 0,                        // - allow use of process.env
     "no-proto": 2,                              // - disallow usage of __proto__ property
     "no-redeclare": 2,                          // - disallow declaring the same variable more than once (recommended)
     "no-return-assign": 2,                      // - disallow use of assignment in return statement
@@ -129,7 +129,7 @@
     "no-mixed-requires": 2,                     // - disallow mixing regular variable and require declarations
     "no-new-require": 2,                        // - disallow use of new operator with the require function
     "no-path-concat": 2,                        // - disallow string concatenation with __dirname and __filename
-    "no-process-exit": 2,                       // - disallow process.exit()
+    "no-process-exit": 0,                       // - allow process.exit()
     "no-restricted-modules": 2,                 // - restrict usage of specified node modules
     "no-sync": 0,                               // - allow use of synchronous methods as this is a cmd-line utility
 
