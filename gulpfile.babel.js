@@ -35,7 +35,8 @@ gulp.task("nsp", function (cb) {
 });
 
 gulp.task("pre-test", () => {
-  return gulp.src(["lib/**/*.js", "test/**/*.js"])
+  // https://github.com/yeoman/generator-node/issues/209 - index exclusion to allow shebang
+  return gulp.src(["lib/**/*.js", "test/**/*.js", "!lib/index.js"])
     .pipe(excludeGitignore())
     .pipe(istanbul({
       includeUntested: true,
