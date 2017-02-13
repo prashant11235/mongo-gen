@@ -1,6 +1,6 @@
 {
   "name": "mongo-gen",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A command line tool to generate mongo db dummy documents given a schema and record count",
   "homepage": "",
   "author": {
