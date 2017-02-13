@@ -12,7 +12,7 @@
     "dist"
   ],
   "bin": {
-    "mogno-gen": "dist/index.js"
+    "mongo-gen": "dist/index.js"
   },
   "keywords": [
     "mongo",
