@@ -50,7 +50,7 @@
       "mocha": true
     }
   },
-  "repository": "https://github.com/fakespy11235/mongo-gen.git",
+  "repository": "https://github.com/prashant11235/mongo-gen.git",
   "scripts": {
     "prepublish": "gulp prepublish",
     "test": "gulp"
